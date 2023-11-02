@@ -1,0 +1,1138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15040AE41FEB2B0900769778 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6F01ECFAF1000468F86 /* String+Additions.swift */; };
+		150ADD591F356ABE00B147E4 /* MetricsTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADD581F356ABE00B147E4 /* MetricsTextStorage.swift */; };
+		150ADD5A1F356ABE00B147E4 /* MetricsTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADD581F356ABE00B147E4 /* MetricsTextStorage.swift */; };
+		150CFAC11E2A83CF000B69E5 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150CFABF1E2A83CF000B69E5 /* Document.xib */; };
+		150CFAC31E2A83CF000B69E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150CFAC21E2A83CF000B69E5 /* Assets.xcassets */; };
+		150CFAC61E2A83CF000B69E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150CFAC41E2A83CF000B69E5 /* MainMenu.xib */; };
+		151CCF2C1F6DD8F4002D006D /* ModifiableIndentationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC98CC1E8748DF00E3B7B3 /* ModifiableIndentationTest.swift */; };
+		15260C3F1EE0EE9700A91CE6 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 15260C3A1EE0EE5300A91CE6 /* dsa_pub.pem */; };
+		15276E5F1E5BBEEF0032EDE4 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15276E5E1E5BBEEF0032EDE4 /* Preferences.swift */; };
+		15276E621E5BCD120032EDE4 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15276E611E5BCD120032EDE4 /* BackgroundView.swift */; };
+		15276E671E5CD5380032EDE4 /* NSColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15276E661E5CD5380032EDE4 /* NSColor+Additions.swift */; };
+		153C74831E9EE38900D57BD6 /* PrintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A61399A1E660FC68C7C1F /* PrintingView.swift */; };
+		153EE9441E77708B00A1F080 /* NSLayoutConstraint+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EE9431E77708B00A1F080 /* NSLayoutConstraint+Additions.swift */; };
+		154148B71F217A3B000D6383 /* WindowDragHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E276B1F15650300CD473C /* WindowDragHandleView.swift */; };
+		154148B81F217A3C000D6383 /* WindowDragHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E276B1F15650300CD473C /* WindowDragHandleView.swift */; };
+		154148BA1F253E42000D6383 /* Temporizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154148B91F253E42000D6383 /* Temporizer.swift */; };
+		154148BB1F253E42000D6383 /* Temporizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154148B91F253E42000D6383 /* Temporizer.swift */; };
+		1558E6F11ECFAF1000468F86 /* Bool+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6ED1ECFAF1000468F86 /* Bool+Additions.swift */; };
+		1558E6F21ECFAF1000468F86 /* NSMenuItem+EditorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6EE1ECFAF1000468F86 /* NSMenuItem+EditorTheme.swift */; };
+		1558E6F31ECFAF1000468F86 /* NSTextView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6EF1ECFAF1000468F86 /* NSTextView+Additions.swift */; };
+		1558E6F41ECFAF1000468F86 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6F01ECFAF1000468F86 /* String+Additions.swift */; };
+		156E62D51FEB07C00037D04A /* EditorLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB8CD71F5362F0007CB05A /* EditorLayoutManager.m */; };
+		156E62D61FEB07C00037D04A /* EditorLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB8CD71F5362F0007CB05A /* EditorLayoutManager.m */; };
+		157FD88E1F8FC3C2007FDE7F /* Notedown.help in Resources */ = {isa = PBXBuildFile; fileRef = 157FD88D1F8FC00E007FDE7F /* Notedown.help */; };
+		157FD88F1F8FC3C2007FDE7F /* Notedown.help in Resources */ = {isa = PBXBuildFile; fileRef = 157FD88D1F8FC00E007FDE7F /* Notedown.help */; };
+		1582F9431FEB02E000FE69A9 /* ConcreteTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1582F9421FEB02E000FE69A9 /* ConcreteTextStorage.m */; };
+		1582F9441FEB02E000FE69A9 /* ConcreteTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1582F9421FEB02E000FE69A9 /* ConcreteTextStorage.m */; };
+		158767981E84A7D0006ED5F0 /* GeneralPreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158767961E84A7D0006ED5F0 /* GeneralPreferencesController.swift */; };
+		158767991E84A7D0006ED5F0 /* GeneralPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158767971E84A7D0006ED5F0 /* GeneralPreferencesController.xib */; };
+		15933C7A1E5B922900AFF625 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15933C791E5B922900AFF625 /* Document.swift */; };
+		15933C7D1E5B924A00AFF625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15933C7C1E5B924A00AFF625 /* AppDelegate.swift */; };
+		15933C811E5BBC8000AFF625 /* DocumentWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15933C801E5BBC8000AFF625 /* DocumentWindow.swift */; };
+		15A0FB711ED0C46500B1DD8C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15276E611E5BCD120032EDE4 /* BackgroundView.swift */; };
+		15A0FB721ED0C46500B1DD8C /* NSLayoutConstraint+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EE9431E77708B00A1F080 /* NSLayoutConstraint+Additions.swift */; };
+		15A0FB741ED0C46500B1DD8C /* GeneralPreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158767961E84A7D0006ED5F0 /* GeneralPreferencesController.swift */; };
+		15A0FB751ED0C46500B1DD8C /* NSColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15276E661E5CD5380032EDE4 /* NSColor+Additions.swift */; };
+		15A0FB761ED0C46500B1DD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15933C7C1E5B924A00AFF625 /* AppDelegate.swift */; };
+		15A0FB771ED0C46500B1DD8C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15933C791E5B922900AFF625 /* Document.swift */; };
+		15A0FB781ED0C46500B1DD8C /* PrintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A61399A1E660FC68C7C1F /* PrintingView.swift */; };
+		15A0FB7A1ED0C46500B1DD8C /* EditorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB0BE81E64FD9B00170795 /* EditorTheme.swift */; };
+		15A0FB7B1ED0C46500B1DD8C /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA3FBE1E5CE9FC008ACD8D /* EditorView.swift */; };
+		15A0FB7D1ED0C46500B1DD8C /* NSTextView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6EF1ECFAF1000468F86 /* NSTextView+Additions.swift */; };
+		15A0FB7E1ED0C46500B1DD8C /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15276E5E1E5BBEEF0032EDE4 /* Preferences.swift */; };
+		15A0FB7F1ED0C46500B1DD8C /* LineNumbersRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA3FC01E5CEAD2008ACD8D /* LineNumbersRulerView.swift */; };
+		15A0FB801ED0C46500B1DD8C /* DocumentWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15933C801E5BBC8000AFF625 /* DocumentWindow.swift */; };
+		15A0FB821ED0C46500B1DD8C /* FileWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A61EF7B8EEA3C294945D1 /* FileWatcher.swift */; };
+		15A0FB831ED0C46500B1DD8C /* Bool+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6ED1ECFAF1000468F86 /* Bool+Additions.swift */; };
+		15A0FB841ED0C46500B1DD8C /* EncodingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A660DE21A76CAA3B31D9F /* EncodingTool.swift */; };
+		15A0FB851ED0C46500B1DD8C /* InfoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6F92D0C4987B8C44A013 /* InfoBar.swift */; };
+		15A0FB861ED0C46500B1DD8C /* HUDInfoBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6B3CA5E761B947CD620F /* HUDInfoBarController.swift */; };
+		15A0FB871ED0C46500B1DD8C /* StatusInfoBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6F35748E970A69239B54 /* StatusInfoBarController.swift */; };
+		15A0FB881ED0C46500B1DD8C /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A645CBC040EE9A65603C9 /* PreferencesController.swift */; };
+		15A0FB891ED0C46500B1DD8C /* ThemePreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A684A13D7D7E3BFCE1148 /* ThemePreferencesController.swift */; };
+		15A0FB8A1ED0C46500B1DD8C /* EditorPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6BB95A3C842BF1266BC2 /* EditorPreferencesViewController.swift */; };
+		15A0FB8B1ED0C46500B1DD8C /* NSTextStorage+Indentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC98CA1E87482500E3B7B3 /* NSTextStorage+Indentation.swift */; };
+		15A0FB8C1ED0C46500B1DD8C /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6F01ECFAF1000468F86 /* String+Additions.swift */; };
+		15A0FB8D1ED0C46500B1DD8C /* NSMenuItem+EditorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558E6EE1ECFAF1000468F86 /* NSMenuItem+EditorTheme.swift */; };
+		15A0FB8E1ED0C46500B1DD8C /* PrintAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A689396F765AAA86ED282 /* PrintAccessoryViewController.swift */; };
+		15A0FB8F1ED0C46500B1DD8C /* ManagedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6ABA84B96CC7FB64EA7D /* ManagedToolbar.swift */; };
+		15A0FB931ED0C46500B1DD8C /* GeneralPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158767971E84A7D0006ED5F0 /* GeneralPreferencesController.xib */; };
+		15A0FB941ED0C46500B1DD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150CFAC21E2A83CF000B69E5 /* Assets.xcassets */; };
+		15A0FB951ED0C46500B1DD8C /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150CFABF1E2A83CF000B69E5 /* Document.xib */; };
+		15A0FB961ED0C46500B1DD8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150CFAC41E2A83CF000B69E5 /* MainMenu.xib */; };
+		15A0FB971ED0C46500B1DD8C /* HUDInfoBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A638789623CBC1BE9B95A /* HUDInfoBarController.xib */; };
+		15A0FB981ED0C46500B1DD8C /* StatusInfoBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A61ED717C8F5AEEB632B7 /* StatusInfoBarController.xib */; };
+		15A0FB991ED0C46500B1DD8C /* ThemePreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A63833C2D839F46D6BD18 /* ThemePreferencesController.xib */; };
+		15A0FB9A1ED0C46500B1DD8C /* EditorPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A64F2C7AB0151AEF2DF3D /* EditorPreferencesViewController.xib */; };
+		15A0FB9B1ED0C46500B1DD8C /* PrintAccessoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A6E4F599223E8955B91C5 /* PrintAccessoryViewController.xib */; };
+		15B005281ED646700028B27E /* EncodingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A660DE21A76CAA3B31D9F /* EncodingTool.swift */; };
+		15B005291ED646870028B27E /* AssignIf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA4EBF1ED4D10C00782994 /* AssignIf.swift */; };
+		15B0052A1ED646870028B27E /* AssignIf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA4EBF1ED4D10C00782994 /* AssignIf.swift */; };
+		15CA3FBF1E5CE9FC008ACD8D /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA3FBE1E5CE9FC008ACD8D /* EditorView.swift */; };
+		15CA3FC11E5CEAD2008ACD8D /* LineNumbersRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA3FC01E5CEAD2008ACD8D /* LineNumbersRulerView.swift */; };
+		15DA4EC01ED4D10C00782994 /* AssignIf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA4EBF1ED4D10C00782994 /* AssignIf.swift */; };
+		15DB0BE91E64FD9B00170795 /* EditorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB0BE81E64FD9B00170795 /* EditorTheme.swift */; };
+		15DC98C31E8747F100E3B7B3 /* Unit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC98C21E8747F100E3B7B3 /* Unit_Tests.swift */; };
+		15DC98CB1E87482500E3B7B3 /* NSTextStorage+Indentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC98CA1E87482500E3B7B3 /* NSTextStorage+Indentation.swift */; };
+		15DC98CE1E874AC400E3B7B3 /* NSTextStorage+Indentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC98CA1E87482500E3B7B3 /* NSTextStorage+Indentation.swift */; };
+		36F03DAEAAE6873453874A52 /* Pods_Notedown__AppStore_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFBCC2E9C3FE5D9AF14302 /* Pods_Notedown__AppStore_.framework */; };
+		3D7A6029CD140902D1595651 /* PrintAccessoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A6E4F599223E8955B91C5 /* PrintAccessoryViewController.xib */; };
+		3D7A60593288B574BD1DE5EB /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A645CBC040EE9A65603C9 /* PreferencesController.swift */; };
+		3D7A61381C3826217EAF3065 /* ThemePreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A63833C2D839F46D6BD18 /* ThemePreferencesController.xib */; };
+		3D7A630C8CF5CE685EAB847A /* EncodingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A660DE21A76CAA3B31D9F /* EncodingTool.swift */; };
+		3D7A6318BFD6E4550F8804E6 /* HUDInfoBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A638789623CBC1BE9B95A /* HUDInfoBarController.xib */; };
+		3D7A63573DFF85E46656127E /* EditorPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A64F2C7AB0151AEF2DF3D /* EditorPreferencesViewController.xib */; };
+		3D7A6552F3CAF6690B465562 /* HUDInfoBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6B3CA5E761B947CD620F /* HUDInfoBarController.swift */; };
+		3D7A67FFA65969A7EFD1DF63 /* ThemePreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A684A13D7D7E3BFCE1148 /* ThemePreferencesController.swift */; };
+		3D7A69227069FD07AF9815C5 /* ManagedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6ABA84B96CC7FB64EA7D /* ManagedToolbar.swift */; };
+		3D7A695561A245288374A532 /* EditorPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6BB95A3C842BF1266BC2 /* EditorPreferencesViewController.swift */; };
+		3D7A6A516AB3B8A74FD70D23 /* StatusInfoBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6F35748E970A69239B54 /* StatusInfoBarController.swift */; };
+		3D7A6B5F8935D86C41AFEB4C /* PrintAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A689396F765AAA86ED282 /* PrintAccessoryViewController.swift */; };
+		3D7A6C4EB25C0DC9A582723E /* InfoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A6F92D0C4987B8C44A013 /* InfoBar.swift */; };
+		3D7A6E8F9C2D3062F8D75744 /* FileWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A61EF7B8EEA3C294945D1 /* FileWatcher.swift */; };
+		3D7A6FA7E4CC93640224D624 /* StatusInfoBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7A61ED717C8F5AEEB632B7 /* StatusInfoBarController.xib */; };
+		F4D69BD9B73D3CDE5FE8A443 /* Pods_Notedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72442B19A40A3D12B0149245 /* Pods_Notedown.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15DC98C51E8747F100E3B7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150CFAB01E2A83CF000B69E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150CFAB71E2A83CF000B69E5;
+			remoteInfo = Notedown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FE3099D284FE0E08F3F604 /* Pods-Notedown (AppStore).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown (AppStore).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown (AppStore)/Pods-Notedown (AppStore).debug.xcconfig"; sourceTree = "<group>"; };
+		150ADD581F356ABE00B147E4 /* MetricsTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsTextStorage.swift; sourceTree = "<group>"; };
+		150CFAB81E2A83CF000B69E5 /* Notedown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notedown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150CFAC01E2A83CF000B69E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		150CFAC21E2A83CF000B69E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150CFAC51E2A83CF000B69E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		15260C391EE0EE5300A91CE6 /* BumpBuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = BumpBuild.sh; sourceTree = "<group>"; };
+		15260C3A1EE0EE5300A91CE6 /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		15260C3B1EE0EE5300A91CE6 /* Info-AppStore.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-AppStore.plist"; sourceTree = "<group>"; };
+		15260C3C1EE0EE5300A91CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15260C3D1EE0EE5300A91CE6 /* Notedown-AppStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Notedown-AppStore.entitlements"; sourceTree = "<group>"; };
+		15260C3E1EE0EE5300A91CE6 /* Notedown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notedown.entitlements; sourceTree = "<group>"; };
+		15276E5E1E5BBEEF0032EDE4 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Preferences.swift; path = Application/Preferences.swift; sourceTree = "<group>"; };
+		15276E611E5BCD120032EDE4 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = Views/BackgroundView.swift; sourceTree = "<group>"; };
+		15276E661E5CD5380032EDE4 /* NSColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSColor+Additions.swift"; path = "Extensions/NSColor+Additions.swift"; sourceTree = "<group>"; };
+		153E276B1F15650300CD473C /* WindowDragHandleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowDragHandleView.swift; path = Views/WindowDragHandleView.swift; sourceTree = "<group>"; };
+		153EE9431E77708B00A1F080 /* NSLayoutConstraint+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Additions.swift"; path = "Extensions/NSLayoutConstraint+Additions.swift"; sourceTree = "<group>"; };
+		154148B91F253E42000D6383 /* Temporizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temporizer.swift; sourceTree = "<group>"; };
+		1558E6ED1ECFAF1000468F86 /* Bool+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bool+Additions.swift"; path = "Extensions/Bool+Additions.swift"; sourceTree = "<group>"; };
+		1558E6EE1ECFAF1000468F86 /* NSMenuItem+EditorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSMenuItem+EditorTheme.swift"; path = "Extensions/NSMenuItem+EditorTheme.swift"; sourceTree = "<group>"; };
+		1558E6EF1ECFAF1000468F86 /* NSTextView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSTextView+Additions.swift"; path = "Extensions/NSTextView+Additions.swift"; sourceTree = "<group>"; };
+		1558E6F01ECFAF1000468F86 /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Additions.swift"; path = "Extensions/String+Additions.swift"; sourceTree = "<group>"; };
+		157FD88D1F8FC00E007FDE7F /* Notedown.help */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Notedown.help; sourceTree = "<group>"; };
+		1582F9411FEB02E000FE69A9 /* ConcreteTextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteTextStorage.h; sourceTree = "<group>"; };
+		1582F9421FEB02E000FE69A9 /* ConcreteTextStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteTextStorage.m; sourceTree = "<group>"; };
+		158767961E84A7D0006ED5F0 /* GeneralPreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralPreferencesController.swift; path = "View Controllers/Preferences/GeneralPreferencesController.swift"; sourceTree = "<group>"; };
+		158767971E84A7D0006ED5F0 /* GeneralPreferencesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GeneralPreferencesController.xib; path = "View Controllers/Preferences/GeneralPreferencesController.xib"; sourceTree = "<group>"; };
+		15933C791E5B922900AFF625 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Document/Document.swift; sourceTree = "<group>"; };
+		15933C7C1E5B924A00AFF625 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		15933C801E5BBC8000AFF625 /* DocumentWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DocumentWindow.swift; path = Document/DocumentWindow.swift; sourceTree = "<group>"; };
+		15A0FBA31ED0C46500B1DD8C /* Notedown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notedown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AB8CD61F5362F0007CB05A /* EditorLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorLayoutManager.h; sourceTree = "<group>"; };
+		15AB8CD71F5362F0007CB05A /* EditorLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorLayoutManager.m; sourceTree = "<group>"; };
+		15AB8CDB1F536323007CB05A /* Notedown-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notedown-Bridging-Header.h"; sourceTree = "<group>"; };
+		15CA3FBE1E5CE9FC008ACD8D /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorView.swift; path = Views/EditorView.swift; sourceTree = "<group>"; };
+		15CA3FC01E5CEAD2008ACD8D /* LineNumbersRulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineNumbersRulerView.swift; path = Views/LineNumbersRulerView.swift; sourceTree = "<group>"; };
+		15DA4EBF1ED4D10C00782994 /* AssignIf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignIf.swift; sourceTree = "<group>"; };
+		15DB0BE81E64FD9B00170795 /* EditorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTheme.swift; path = Application/EditorTheme.swift; sourceTree = "<group>"; };
+		15DC98C01E8747F100E3B7B3 /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DC98C21E8747F100E3B7B3 /* Unit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Tests.swift; sourceTree = "<group>"; };
+		15DC98C41E8747F100E3B7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DC98CA1E87482500E3B7B3 /* NSTextStorage+Indentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSTextStorage+Indentation.swift"; path = "Extensions/NSTextStorage+Indentation.swift"; sourceTree = "<group>"; };
+		15DC98CC1E8748DF00E3B7B3 /* ModifiableIndentationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifiableIndentationTest.swift; sourceTree = "<group>"; };
+		1841FBBB7A82BE4F9688ED92 /* Pods-Notedown (AppStore).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown (AppStore).release.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown (AppStore)/Pods-Notedown (AppStore).release.xcconfig"; sourceTree = "<group>"; };
+		3D7A61399A1E660FC68C7C1F /* PrintingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrintingView.swift; path = "View Controllers/Printing/PrintingView.swift"; sourceTree = "<group>"; };
+		3D7A61ED717C8F5AEEB632B7 /* StatusInfoBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusInfoBarController.xib; sourceTree = "<group>"; };
+		3D7A61EF7B8EEA3C294945D1 /* FileWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWatcher.swift; sourceTree = "<group>"; };
+		3D7A63833C2D839F46D6BD18 /* ThemePreferencesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ThemePreferencesController.xib; path = "View Controllers/Preferences/ThemePreferencesController.xib"; sourceTree = "<group>"; };
+		3D7A638789623CBC1BE9B95A /* HUDInfoBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HUDInfoBarController.xib; sourceTree = "<group>"; };
+		3D7A645CBC040EE9A65603C9 /* PreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesController.swift; path = "View Controllers/Preferences/PreferencesController.swift"; sourceTree = "<group>"; };
+		3D7A64F2C7AB0151AEF2DF3D /* EditorPreferencesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditorPreferencesViewController.xib; path = "View Controllers/Preferences/EditorPreferencesViewController.xib"; sourceTree = "<group>"; };
+		3D7A660DE21A76CAA3B31D9F /* EncodingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodingTool.swift; sourceTree = "<group>"; };
+		3D7A684A13D7D7E3BFCE1148 /* ThemePreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemePreferencesController.swift; path = "View Controllers/Preferences/ThemePreferencesController.swift"; sourceTree = "<group>"; };
+		3D7A689396F765AAA86ED282 /* PrintAccessoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrintAccessoryViewController.swift; path = "View Controllers/Printing/PrintAccessoryViewController.swift"; sourceTree = "<group>"; };
+		3D7A6ABA84B96CC7FB64EA7D /* ManagedToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedToolbar.swift; sourceTree = "<group>"; };
+		3D7A6B3CA5E761B947CD620F /* HUDInfoBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDInfoBarController.swift; sourceTree = "<group>"; };
+		3D7A6BB95A3C842BF1266BC2 /* EditorPreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorPreferencesViewController.swift; path = "View Controllers/Preferences/EditorPreferencesViewController.swift"; sourceTree = "<group>"; };
+		3D7A6E4F599223E8955B91C5 /* PrintAccessoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PrintAccessoryViewController.xib; path = "View Controllers/Printing/PrintAccessoryViewController.xib"; sourceTree = "<group>"; };
+		3D7A6F35748E970A69239B54 /* StatusInfoBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusInfoBarController.swift; sourceTree = "<group>"; };
+		3D7A6F92D0C4987B8C44A013 /* InfoBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoBar.swift; sourceTree = "<group>"; };
+		552B3D6D3F83B0001BF2BF0A /* Pods-Notedown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown/Pods-Notedown.release.xcconfig"; sourceTree = "<group>"; };
+		6388C57FE502F5D0B1F854DC /* Pods-Notedown (AppStore).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown (AppStore).release.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown (AppStore)/Pods-Notedown (AppStore).release.xcconfig"; sourceTree = "<group>"; };
+		72442B19A40A3D12B0149245 /* Pods_Notedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75693DC54529A742F665731A /* Pods-Notedown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown/Pods-Notedown.release.xcconfig"; sourceTree = "<group>"; };
+		7ACC5EC4AA259EEAF6DED31D /* Pods-Notedown (AppStore).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown (AppStore).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown (AppStore)/Pods-Notedown (AppStore).debug.xcconfig"; sourceTree = "<group>"; };
+		AFA71147BA8D7F3E19788523 /* Pods-Notedown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown/Pods-Notedown.debug.xcconfig"; sourceTree = "<group>"; };
+		DBCFBCC2E9C3FE5D9AF14302 /* Pods_Notedown__AppStore_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notedown__AppStore_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AA2E9A717F7089F7E6D7DB /* Pods-Notedown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notedown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notedown/Pods-Notedown.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150CFAB51E2A83CF000B69E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D69BD9B73D3CDE5FE8A443 /* Pods_Notedown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A0FB901ED0C46500B1DD8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F03DAEAAE6873453874A52 /* Pods_Notedown__AppStore_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DC98BD1E8747F100E3B7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150CFAAF1E2A83CF000B69E5 = {
+			isa = PBXGroup;
+			children = (
+				150CFABA1E2A83CF000B69E5 /* Notedown */,
+				15DC98C11E8747F100E3B7B3 /* Unit Tests */,
+				150CFAB91E2A83CF000B69E5 /* Products */,
+				BCE72710A52A2D92235FA696 /* Pods */,
+				5C714300CE77464A75A3EFE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		150CFAB91E2A83CF000B69E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150CFAB81E2A83CF000B69E5 /* Notedown.app */,
+				15DC98C01E8747F100E3B7B3 /* Unit Tests.xctest */,
+				15A0FBA31ED0C46500B1DD8C /* Notedown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150CFABA1E2A83CF000B69E5 /* Notedown */ = {
+			isa = PBXGroup;
+			children = (
+				15933C7B1E5B922E00AFF625 /* Application */,
+				15933C781E5B920D00AFF625 /* Document */,
+				15276E601E5BCCFA0032EDE4 /* Views */,
+				15276E651E5CD5050032EDE4 /* Extensions */,
+				3D7A65D621A92EA3DF2A986D /* Misc */,
+				3D7A6D85B6B53FAF600DDB09 /* View Controllers */,
+				15260C381EE0EE5300A91CE6 /* Supporting Files */,
+			);
+			path = Notedown;
+			sourceTree = "<group>";
+		};
+		15260C381EE0EE5300A91CE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				157FD88D1F8FC00E007FDE7F /* Notedown.help */,
+				15260C391EE0EE5300A91CE6 /* BumpBuild.sh */,
+				15260C3A1EE0EE5300A91CE6 /* dsa_pub.pem */,
+				15260C3B1EE0EE5300A91CE6 /* Info-AppStore.plist */,
+				15260C3C1EE0EE5300A91CE6 /* Info.plist */,
+				15260C3D1EE0EE5300A91CE6 /* Notedown-AppStore.entitlements */,
+				15260C3E1EE0EE5300A91CE6 /* Notedown.entitlements */,
+				15AB8CDB1F536323007CB05A /* Notedown-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15276E601E5BCCFA0032EDE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15276E611E5BCD120032EDE4 /* BackgroundView.swift */,
+				15CA3FBE1E5CE9FC008ACD8D /* EditorView.swift */,
+				15CA3FC01E5CEAD2008ACD8D /* LineNumbersRulerView.swift */,
+				153E276B1F15650300CD473C /* WindowDragHandleView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		15276E651E5CD5050032EDE4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1558E6ED1ECFAF1000468F86 /* Bool+Additions.swift */,
+				1558E6EE1ECFAF1000468F86 /* NSMenuItem+EditorTheme.swift */,
+				1558E6EF1ECFAF1000468F86 /* NSTextView+Additions.swift */,
+				1558E6F01ECFAF1000468F86 /* String+Additions.swift */,
+				15276E661E5CD5380032EDE4 /* NSColor+Additions.swift */,
+				153EE9431E77708B00A1F080 /* NSLayoutConstraint+Additions.swift */,
+				15DC98CA1E87482500E3B7B3 /* NSTextStorage+Indentation.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		15933C781E5B920D00AFF625 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				15933C791E5B922900AFF625 /* Document.swift */,
+				15933C801E5BBC8000AFF625 /* DocumentWindow.swift */,
+				150CFABF1E2A83CF000B69E5 /* Document.xib */,
+			);
+			name = Document;
+			sourceTree = "<group>";
+		};
+		15933C7B1E5B922E00AFF625 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				15DB0BE81E64FD9B00170795 /* EditorTheme.swift */,
+				15933C7C1E5B924A00AFF625 /* AppDelegate.swift */,
+				15276E5E1E5BBEEF0032EDE4 /* Preferences.swift */,
+				150CFAC41E2A83CF000B69E5 /* MainMenu.xib */,
+				150CFAC21E2A83CF000B69E5 /* Assets.xcassets */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		15DC98C11E8747F100E3B7B3 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15DC98C21E8747F100E3B7B3 /* Unit_Tests.swift */,
+				15DC98CC1E8748DF00E3B7B3 /* ModifiableIndentationTest.swift */,
+				15DC98C41E8747F100E3B7B3 /* Info.plist */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		3D7A607854942D277ED972B4 /* Printing */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A6E4F599223E8955B91C5 /* PrintAccessoryViewController.xib */,
+				3D7A689396F765AAA86ED282 /* PrintAccessoryViewController.swift */,
+				3D7A61399A1E660FC68C7C1F /* PrintingView.swift */,
+			);
+			name = Printing;
+			sourceTree = "<group>";
+		};
+		3D7A64C0B1A6D844815185D6 /* Info Bar */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A6F92D0C4987B8C44A013 /* InfoBar.swift */,
+				3D7A6B3CA5E761B947CD620F /* HUDInfoBarController.swift */,
+				3D7A638789623CBC1BE9B95A /* HUDInfoBarController.xib */,
+				3D7A6F35748E970A69239B54 /* StatusInfoBarController.swift */,
+				3D7A61ED717C8F5AEEB632B7 /* StatusInfoBarController.xib */,
+			);
+			name = "Info Bar";
+			path = "View Controllers/Info Bar";
+			sourceTree = "<group>";
+		};
+		3D7A65D621A92EA3DF2A986D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				15DA4EBF1ED4D10C00782994 /* AssignIf.swift */,
+				3D7A61EF7B8EEA3C294945D1 /* FileWatcher.swift */,
+				3D7A660DE21A76CAA3B31D9F /* EncodingTool.swift */,
+				3D7A6ABA84B96CC7FB64EA7D /* ManagedToolbar.swift */,
+				154148B91F253E42000D6383 /* Temporizer.swift */,
+				150ADD581F356ABE00B147E4 /* MetricsTextStorage.swift */,
+				15AB8CD61F5362F0007CB05A /* EditorLayoutManager.h */,
+				15AB8CD71F5362F0007CB05A /* EditorLayoutManager.m */,
+				1582F9411FEB02E000FE69A9 /* ConcreteTextStorage.h */,
+				1582F9421FEB02E000FE69A9 /* ConcreteTextStorage.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		3D7A69ED0752AC41BE66321D /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A645CBC040EE9A65603C9 /* PreferencesController.swift */,
+				3D7A684A13D7D7E3BFCE1148 /* ThemePreferencesController.swift */,
+				3D7A63833C2D839F46D6BD18 /* ThemePreferencesController.xib */,
+				3D7A6BB95A3C842BF1266BC2 /* EditorPreferencesViewController.swift */,
+				3D7A64F2C7AB0151AEF2DF3D /* EditorPreferencesViewController.xib */,
+				158767961E84A7D0006ED5F0 /* GeneralPreferencesController.swift */,
+				158767971E84A7D0006ED5F0 /* GeneralPreferencesController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		3D7A6D85B6B53FAF600DDB09 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A64C0B1A6D844815185D6 /* Info Bar */,
+				3D7A69ED0752AC41BE66321D /* Preferences */,
+				3D7A607854942D277ED972B4 /* Printing */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5C714300CE77464A75A3EFE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72442B19A40A3D12B0149245 /* Pods_Notedown.framework */,
+				DBCFBCC2E9C3FE5D9AF14302 /* Pods_Notedown__AppStore_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE72710A52A2D92235FA696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2E9A717F7089F7E6D7DB /* Pods-Notedown.debug.xcconfig */,
+				75693DC54529A742F665731A /* Pods-Notedown.release.xcconfig */,
+				7ACC5EC4AA259EEAF6DED31D /* Pods-Notedown (AppStore).debug.xcconfig */,
+				1841FBBB7A82BE4F9688ED92 /* Pods-Notedown (AppStore).release.xcconfig */,
+				AFA71147BA8D7F3E19788523 /* Pods-Notedown.debug.xcconfig */,
+				552B3D6D3F83B0001BF2BF0A /* Pods-Notedown.release.xcconfig */,
+				02FE3099D284FE0E08F3F604 /* Pods-Notedown (AppStore).debug.xcconfig */,
+				6388C57FE502F5D0B1F854DC /* Pods-Notedown (AppStore).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150CFAB71E2A83CF000B69E5 /* Notedown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150CFACA1E2A83CF000B69E5 /* Build configuration list for PBXNativeTarget "Notedown" */;
+			buildPhases = (
+				8752463E9554BA48CC282131 /* [CP] Check Pods Manifest.lock */,
+				150CFAB41E2A83CF000B69E5 /* Sources */,
+				150CFAB51E2A83CF000B69E5 /* Frameworks */,
+				150CFAB61E2A83CF000B69E5 /* Resources */,
+				15257EAF1E9F0D9A002C194B /* ShellScript */,
+				3AD655DB63EFD5F3FC0DCC0F /* [CP] Embed Pods Frameworks */,
+				1558E6F81ECFF14700468F86 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notedown;
+			productName = Notedown;
+			productReference = 150CFAB81E2A83CF000B69E5 /* Notedown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15A0FB6E1ED0C46500B1DD8C /* Notedown (AppStore) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A0FBA01ED0C46500B1DD8C /* Build configuration list for PBXNativeTarget "Notedown (AppStore)" */;
+			buildPhases = (
+				8E944F41D36DBD10F80EBE7F /* [CP] Check Pods Manifest.lock */,
+				15A0FB701ED0C46500B1DD8C /* Sources */,
+				15A0FB901ED0C46500B1DD8C /* Frameworks */,
+				15A0FB921ED0C46500B1DD8C /* Resources */,
+				15A0FB9C1ED0C46500B1DD8C /* ShellScript */,
+				15A0FB9F1ED0C46500B1DD8C /* ShellScript */,
+				D2B2049E783E5F86BEACF00B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notedown (AppStore)";
+			productName = Notedown;
+			productReference = 15A0FBA31ED0C46500B1DD8C /* Notedown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15DC98BF1E8747F100E3B7B3 /* Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DC98C91E8747F100E3B7B3 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
+			buildPhases = (
+				15DC98BC1E8747F100E3B7B3 /* Sources */,
+				15DC98BD1E8747F100E3B7B3 /* Frameworks */,
+				15DC98BE1E8747F100E3B7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DC98C61E8747F100E3B7B3 /* PBXTargetDependency */,
+			);
+			name = "Unit Tests";
+			productName = "Unit Tests";
+			productReference = 15DC98C01E8747F100E3B7B3 /* Unit Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150CFAB01E2A83CF000B69E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gamunu Balagalla";
+				TargetAttributes = {
+					150CFAB71E2A83CF000B69E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					15A0FB6E1ED0C46500B1DD8C = {
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					15DC98BF1E8747F100E3B7B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 150CFAB71E2A83CF000B69E5;
+					};
+				};
+			};
+			buildConfigurationList = 150CFAB31E2A83CF000B69E5 /* Build configuration list for PBXProject "Notedown" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 150CFAAF1E2A83CF000B69E5;
+			productRefGroup = 150CFAB91E2A83CF000B69E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150CFAB71E2A83CF000B69E5 /* Notedown */,
+				15A0FB6E1ED0C46500B1DD8C /* Notedown (AppStore) */,
+				15DC98BF1E8747F100E3B7B3 /* Unit Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150CFAB61E2A83CF000B69E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158767991E84A7D0006ED5F0 /* GeneralPreferencesController.xib in Resources */,
+				15260C3F1EE0EE9700A91CE6 /* dsa_pub.pem in Resources */,
+				150CFAC31E2A83CF000B69E5 /* Assets.xcassets in Resources */,
+				150CFAC11E2A83CF000B69E5 /* Document.xib in Resources */,
+				150CFAC61E2A83CF000B69E5 /* MainMenu.xib in Resources */,
+				3D7A6318BFD6E4550F8804E6 /* HUDInfoBarController.xib in Resources */,
+				3D7A6FA7E4CC93640224D624 /* StatusInfoBarController.xib in Resources */,
+				157FD88E1F8FC3C2007FDE7F /* Notedown.help in Resources */,
+				3D7A61381C3826217EAF3065 /* ThemePreferencesController.xib in Resources */,
+				3D7A63573DFF85E46656127E /* EditorPreferencesViewController.xib in Resources */,
+				3D7A6029CD140902D1595651 /* PrintAccessoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A0FB921ED0C46500B1DD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157FD88F1F8FC3C2007FDE7F /* Notedown.help in Resources */,
+				15A0FB931ED0C46500B1DD8C /* GeneralPreferencesController.xib in Resources */,
+				15A0FB941ED0C46500B1DD8C /* Assets.xcassets in Resources */,
+				15A0FB951ED0C46500B1DD8C /* Document.xib in Resources */,
+				15A0FB961ED0C46500B1DD8C /* MainMenu.xib in Resources */,
+				15A0FB971ED0C46500B1DD8C /* HUDInfoBarController.xib in Resources */,
+				15A0FB981ED0C46500B1DD8C /* StatusInfoBarController.xib in Resources */,
+				15A0FB991ED0C46500B1DD8C /* ThemePreferencesController.xib in Resources */,
+				15A0FB9A1ED0C46500B1DD8C /* EditorPreferencesViewController.xib in Resources */,
+				15A0FB9B1ED0C46500B1DD8C /* PrintAccessoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DC98BE1E8747F100E3B7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15257EAF1E9F0D9A002C194B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"Notedown/Supporting Files/BumpBuild.sh\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n/bin/sh \"Notedown/Supporting Files/BumpBuild.sh\" \"$SRCROOT/Notedown/Supporting Files/Info-AppStore.plist\"\n";
+		};
+		1558E6F81ECFF14700468F86 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nhtmlAcks=$(cat \"Pods/Target Support Files/Pods-Notedown/Pods-Notedown-acknowledgements.markdown\" | markdown)\n\necho \"<!DOCTYPE html><html lang=\\\"en\\\"><head><meta charset=\\\"utf-8\\\"/><style>body{font-family: sans-serif}</style></head><body>$htmlAcks</body></html>\" > \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/acknowledgements.html\"\n";
+		};
+		15A0FB9C1ED0C46500B1DD8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"Notedown/Supporting Files/BumpBuild.sh\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n/bin/sh \"Notedown/Supporting Files/BumpBuild.sh\" \"$SRCROOT/Notedown/Supporting Files/Info.plist\"\n";
+		};
+		15A0FB9F1ED0C46500B1DD8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nhtmlAcks=$(cat \"Pods/Target Support Files/Pods-Notedown/Pods-Notedown-acknowledgements.markdown\" | markdown)\n\necho \"<!DOCTYPE html><html lang=\\\"en\\\"><head><meta charset=\\\"utf-8\\\"/><style>body{font-family: sans-serif}</style></head><body>$htmlAcks</body></html>\" > \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/acknowledgements.html\"\n";
+		};
+		3AD655DB63EFD5F3FC0DCC0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notedown/Pods-Notedown-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notedown/Pods-Notedown-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notedown/Pods-Notedown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8752463E9554BA48CC282131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notedown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E944F41D36DBD10F80EBE7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notedown (AppStore)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B2049E783E5F86BEACF00B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notedown (AppStore)/Pods-Notedown (AppStore)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notedown (AppStore)/Pods-Notedown (AppStore)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notedown (AppStore)/Pods-Notedown (AppStore)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150CFAB41E2A83CF000B69E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15276E621E5BCD120032EDE4 /* BackgroundView.swift in Sources */,
+				15DA4EC01ED4D10C00782994 /* AssignIf.swift in Sources */,
+				153EE9441E77708B00A1F080 /* NSLayoutConstraint+Additions.swift in Sources */,
+				158767981E84A7D0006ED5F0 /* GeneralPreferencesController.swift in Sources */,
+				150ADD591F356ABE00B147E4 /* MetricsTextStorage.swift in Sources */,
+				15276E671E5CD5380032EDE4 /* NSColor+Additions.swift in Sources */,
+				15933C7D1E5B924A00AFF625 /* AppDelegate.swift in Sources */,
+				15933C7A1E5B922900AFF625 /* Document.swift in Sources */,
+				153C74831E9EE38900D57BD6 /* PrintingView.swift in Sources */,
+				15DB0BE91E64FD9B00170795 /* EditorTheme.swift in Sources */,
+				15CA3FBF1E5CE9FC008ACD8D /* EditorView.swift in Sources */,
+				1582F9431FEB02E000FE69A9 /* ConcreteTextStorage.m in Sources */,
+				1558E6F31ECFAF1000468F86 /* NSTextView+Additions.swift in Sources */,
+				15276E5F1E5BBEEF0032EDE4 /* Preferences.swift in Sources */,
+				15CA3FC11E5CEAD2008ACD8D /* LineNumbersRulerView.swift in Sources */,
+				15933C811E5BBC8000AFF625 /* DocumentWindow.swift in Sources */,
+				3D7A6E8F9C2D3062F8D75744 /* FileWatcher.swift in Sources */,
+				1558E6F11ECFAF1000468F86 /* Bool+Additions.swift in Sources */,
+				3D7A630C8CF5CE685EAB847A /* EncodingTool.swift in Sources */,
+				3D7A6C4EB25C0DC9A582723E /* InfoBar.swift in Sources */,
+				3D7A6552F3CAF6690B465562 /* HUDInfoBarController.swift in Sources */,
+				3D7A6A516AB3B8A74FD70D23 /* StatusInfoBarController.swift in Sources */,
+				3D7A60593288B574BD1DE5EB /* PreferencesController.swift in Sources */,
+				3D7A67FFA65969A7EFD1DF63 /* ThemePreferencesController.swift in Sources */,
+				3D7A695561A245288374A532 /* EditorPreferencesViewController.swift in Sources */,
+				15DC98CB1E87482500E3B7B3 /* NSTextStorage+Indentation.swift in Sources */,
+				1558E6F41ECFAF1000468F86 /* String+Additions.swift in Sources */,
+				1558E6F21ECFAF1000468F86 /* NSMenuItem+EditorTheme.swift in Sources */,
+				154148BA1F253E42000D6383 /* Temporizer.swift in Sources */,
+				154148B71F217A3B000D6383 /* WindowDragHandleView.swift in Sources */,
+				3D7A6B5F8935D86C41AFEB4C /* PrintAccessoryViewController.swift in Sources */,
+				156E62D61FEB07C00037D04A /* EditorLayoutManager.m in Sources */,
+				3D7A69227069FD07AF9815C5 /* ManagedToolbar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A0FB701ED0C46500B1DD8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A0FB711ED0C46500B1DD8C /* BackgroundView.swift in Sources */,
+				15B005291ED646870028B27E /* AssignIf.swift in Sources */,
+				15A0FB721ED0C46500B1DD8C /* NSLayoutConstraint+Additions.swift in Sources */,
+				15A0FB741ED0C46500B1DD8C /* GeneralPreferencesController.swift in Sources */,
+				150ADD5A1F356ABE00B147E4 /* MetricsTextStorage.swift in Sources */,
+				15A0FB751ED0C46500B1DD8C /* NSColor+Additions.swift in Sources */,
+				15A0FB761ED0C46500B1DD8C /* AppDelegate.swift in Sources */,
+				15A0FB771ED0C46500B1DD8C /* Document.swift in Sources */,
+				15A0FB781ED0C46500B1DD8C /* PrintingView.swift in Sources */,
+				15A0FB7A1ED0C46500B1DD8C /* EditorTheme.swift in Sources */,
+				15A0FB7B1ED0C46500B1DD8C /* EditorView.swift in Sources */,
+				1582F9441FEB02E000FE69A9 /* ConcreteTextStorage.m in Sources */,
+				15A0FB7D1ED0C46500B1DD8C /* NSTextView+Additions.swift in Sources */,
+				15A0FB7E1ED0C46500B1DD8C /* Preferences.swift in Sources */,
+				15A0FB7F1ED0C46500B1DD8C /* LineNumbersRulerView.swift in Sources */,
+				15A0FB801ED0C46500B1DD8C /* DocumentWindow.swift in Sources */,
+				15A0FB821ED0C46500B1DD8C /* FileWatcher.swift in Sources */,
+				15A0FB831ED0C46500B1DD8C /* Bool+Additions.swift in Sources */,
+				15A0FB841ED0C46500B1DD8C /* EncodingTool.swift in Sources */,
+				15A0FB851ED0C46500B1DD8C /* InfoBar.swift in Sources */,
+				15A0FB861ED0C46500B1DD8C /* HUDInfoBarController.swift in Sources */,
+				15A0FB871ED0C46500B1DD8C /* StatusInfoBarController.swift in Sources */,
+				15A0FB881ED0C46500B1DD8C /* PreferencesController.swift in Sources */,
+				15A0FB891ED0C46500B1DD8C /* ThemePreferencesController.swift in Sources */,
+				15A0FB8A1ED0C46500B1DD8C /* EditorPreferencesViewController.swift in Sources */,
+				15A0FB8B1ED0C46500B1DD8C /* NSTextStorage+Indentation.swift in Sources */,
+				15A0FB8C1ED0C46500B1DD8C /* String+Additions.swift in Sources */,
+				15A0FB8D1ED0C46500B1DD8C /* NSMenuItem+EditorTheme.swift in Sources */,
+				154148BB1F253E42000D6383 /* Temporizer.swift in Sources */,
+				154148B81F217A3C000D6383 /* WindowDragHandleView.swift in Sources */,
+				15A0FB8E1ED0C46500B1DD8C /* PrintAccessoryViewController.swift in Sources */,
+				156E62D51FEB07C00037D04A /* EditorLayoutManager.m in Sources */,
+				15A0FB8F1ED0C46500B1DD8C /* ManagedToolbar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DC98BC1E8747F100E3B7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DC98C31E8747F100E3B7B3 /* Unit_Tests.swift in Sources */,
+				15B0052A1ED646870028B27E /* AssignIf.swift in Sources */,
+				15040AE41FEB2B0900769778 /* String+Additions.swift in Sources */,
+				15B005281ED646700028B27E /* EncodingTool.swift in Sources */,
+				15DC98CE1E874AC400E3B7B3 /* NSTextStorage+Indentation.swift in Sources */,
+				151CCF2C1F6DD8F4002D006D /* ModifiableIndentationTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15DC98C61E8747F100E3B7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150CFAB71E2A83CF000B69E5 /* Notedown */;
+			targetProxy = 15DC98C51E8747F100E3B7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		150CFABF1E2A83CF000B69E5 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150CFAC01E2A83CF000B69E5 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		150CFAC41E2A83CF000B69E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150CFAC51E2A83CF000B69E5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		150CFAC81E2A83CF000B69E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		150CFAC91E2A83CF000B69E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		150CFACB1E2A83CF000B69E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA71147BA8D7F3E19788523 /* Pods-Notedown.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Notedown/Supporting Files/Notedown.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C24LBX7P9;
+				INFOPLIST_FILE = "Notedown/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamunu.Notedown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG SPARKLE";
+				SWIFT_OBJC_BRIDGING_HEADER = "Notedown/Supporting Files/Notedown-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		150CFACC1E2A83CF000B69E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552B3D6D3F83B0001BF2BF0A /* Pods-Notedown.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Notedown/Supporting Files/Notedown.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C24LBX7P9;
+				INFOPLIST_FILE = "Notedown/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamunu.Notedown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SPARKLE;
+				SWIFT_OBJC_BRIDGING_HEADER = "Notedown/Supporting Files/Notedown-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15A0FBA11ED0C46500B1DD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FE3099D284FE0E08F3F604 /* Pods-Notedown (AppStore).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Notedown/Supporting Files/Notedown-AppStore.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C24LBX7P9;
+				INFOPLIST_FILE = "Notedown/Supporting Files/Info-AppStore.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamunu.Notedown-AppStore";
+				PRODUCT_NAME = Notedown;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Notedown/Supporting Files/Notedown-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15A0FBA21ED0C46500B1DD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6388C57FE502F5D0B1F854DC /* Pods-Notedown (AppStore).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Notedown/Supporting Files/Notedown-AppStore.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C24LBX7P9;
+				INFOPLIST_FILE = "Notedown/Supporting Files/Info-AppStore.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamunu.Notedown-AppStore";
+				PRODUCT_NAME = Notedown;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Notedown/Supporting Files/Notedown-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15DC98C71E8747F100E3B7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7C24LBX7P9;
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamunu.Notedown.Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notedown.app/Contents/MacOS/Notedown";
+			};
+			name = Debug;
+		};
+		15DC98C81E8747F100E3B7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7C24LBX7P9;
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamunu.Notedown.Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notedown.app/Contents/MacOS/Notedown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150CFAB31E2A83CF000B69E5 /* Build configuration list for PBXProject "Notedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150CFAC81E2A83CF000B69E5 /* Debug */,
+				150CFAC91E2A83CF000B69E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150CFACA1E2A83CF000B69E5 /* Build configuration list for PBXNativeTarget "Notedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150CFACB1E2A83CF000B69E5 /* Debug */,
+				150CFACC1E2A83CF000B69E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A0FBA01ED0C46500B1DD8C /* Build configuration list for PBXNativeTarget "Notedown (AppStore)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A0FBA11ED0C46500B1DD8C /* Debug */,
+				15A0FBA21ED0C46500B1DD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DC98C91E8747F100E3B7B3 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DC98C71E8747F100E3B7B3 /* Debug */,
+				15DC98C81E8747F100E3B7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150CFAB01E2A83CF000B69E5 /* Project object */;
+}

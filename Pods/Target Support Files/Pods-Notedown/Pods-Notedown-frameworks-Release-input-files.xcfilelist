@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Notedown/Pods-Notedown-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CCNPreferencesWindowController/CCNPreferencesWindowController.framework
+${PODS_ROOT}/Sparkle/Sparkle.framework
+${BUILT_PRODUCTS_DIR}/TRexAboutWindowController/TRexAboutWindowController.framework

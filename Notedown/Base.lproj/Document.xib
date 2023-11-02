@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22155" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22155"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="Document" customModule="Notedown" customModuleProvider="target">
+            <connections>
+                <outlet property="window" destination="xOd-HO-29H" id="JIz-fz-R2o"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" deferred="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="DocumentWIndow" animationBehavior="default" tabbingIdentifier="com.gamunu.Notedown.Document.Window" id="xOd-HO-29H" userLabel="Window" customClass="DocumentWindow" customModule="Notedown" customModuleProvider="target">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" texturedBackground="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="133" y="235" width="507" height="413"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
+            <value key="minSize" type="size" width="94" height="86"/>
+            <view key="contentView" wantsLayer="YES" id="gIp-Ho-8D9">
+                <rect key="frame" x="0.0" y="0.0" width="507" height="413"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" horizontalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="yIz-sU-qFQ">
+                        <rect key="frame" x="-1" y="-1" width="509" height="414"/>
+                        <clipView key="contentView" drawsBackground="NO" id="895-DM-yKi">
+                            <rect key="frame" x="0.0" y="0.0" width="509" height="414"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" findStyle="panel" incrementalSearchingEnabled="YES" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="3kl-bg-vXa" customClass="EditorView" customModule="Notedown" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="509" height="414"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <ciFilter key="compositingFilter" name="CISourceOverCompositing">
+                                        <configuration>
+                                            <null key="inputBackgroundImage"/>
+                                            <null key="inputImage"/>
+                                        </configuration>
+                                    </ciFilter>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
+                                    <size key="minSize" width="509" height="414"/>
+                                    <size key="maxSize" width="509" height="10000000"/>
+                                    <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="KEg-Up-JR5">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="esY-Zs-NcM">
+                            <rect key="frame" x="493" y="0.0" width="16" height="414"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="HKp-0Q-T0H" customClass="BackgroundView" customModule="Notedown" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="412" width="507" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="up7-tf-RrW"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.14477204623287671" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </customView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HKp-0Q-T0H" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" id="IOe-0R-qbF"/>
+                    <constraint firstItem="yIz-sU-qFQ" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="-1" id="Ie9-dY-lND"/>
+                    <constraint firstAttribute="trailing" secondItem="yIz-sU-qFQ" secondAttribute="trailing" constant="-1" id="Pgo-6R-AmJ"/>
+                    <constraint firstAttribute="trailing" secondItem="HKp-0Q-T0H" secondAttribute="trailing" id="adq-QW-dN0"/>
+                    <constraint firstItem="HKp-0Q-T0H" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" id="ngv-du-sXU"/>
+                    <constraint firstAttribute="bottom" secondItem="yIz-sU-qFQ" secondAttribute="bottom" constant="-1" id="o5x-93-YKX"/>
+                    <constraint firstItem="yIz-sU-qFQ" firstAttribute="top" secondItem="HKp-0Q-T0H" secondAttribute="top" id="t7q-ZX-ZPz"/>
+                </constraints>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="0E9221FB-8EA3-4363-A00B-039AD1C253B8" explicitIdentifier="Document.Toolbar" showsBaselineSeparator="NO" displayMode="iconOnly" sizeMode="regular" id="5wh-ff-yRk" customClass="ManagedToolbar" customModule="Notedown" customModuleProvider="target">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="l1h-S7-eid"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="mAk-lH-1P0"/>
+                    <toolbarItem implicitItemIdentifier="08E9989B-B4CC-4B3A-99FE-611EBDC3F837" label="Invisibles" paletteLabel="Invisibles" id="Fjt-53-Qx5">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="32" height="22"/>
+                        <size key="maxSize" width="36" height="28"/>
+                        <segmentedControl key="view" verticalHuggingPriority="750" id="gVY-Wb-hHm">
+                            <rect key="frame" x="12" y="14" width="32" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="momentary" id="dnB-eJ-wVY">
+                                <font key="font" metaFont="system"/>
+                                <segments>
+                                    <segment image="eyeTemplate" width="30"/>
+                                </segments>
+                            </segmentedCell>
+                        </segmentedControl>
+                        <connections>
+                            <action selector="toggleShowInvisibles:" target="-1" id="WG1-Ih-DbL"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="8FE0EB31-FD59-4F66-8EB8-E30A21C5C168" label="Print" paletteLabel="Print" id="WJe-Rx-Doy">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="32" height="22"/>
+                        <size key="maxSize" width="32" height="28"/>
+                        <segmentedControl key="view" verticalHuggingPriority="750" id="eW5-PS-0st">
+                            <rect key="frame" x="0.0" y="14" width="32" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="momentary" id="Xvl-Oa-xCu">
+                                <font key="font" metaFont="system"/>
+                                <segments>
+                                    <segment image="printTemplate" width="30"/>
+                                </segments>
+                            </segmentedCell>
+                        </segmentedControl>
+                        <connections>
+                            <action selector="printDocument:" target="-1" id="ydU-wL-fE5"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="BF150447-B06B-4F80-9DB4-517A2DC1A18D" label="Go to Line" paletteLabel="Go to Line" id="Gfm-Dd-VNZ">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="34" height="22"/>
+                        <size key="maxSize" width="36" height="28"/>
+                        <segmentedControl key="view" verticalHuggingPriority="750" id="cga-bm-wgK">
+                            <rect key="frame" x="14" y="14" width="34" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="momentary" id="4iv-iT-0bs">
+                                <font key="font" metaFont="system"/>
+                                <segments>
+                                    <segment image="jumpToLineTemplate" width="32"/>
+                                </segments>
+                            </segmentedCell>
+                        </segmentedControl>
+                        <connections>
+                            <action selector="jumpToALine:" target="-1" id="bSV-uD-OIg"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="6DDAD4B6-B58C-477B-A224-A134E4C527FA" label="Indentation" paletteLabel="Indentation" id="42a-LL-ZaC">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="67" height="25"/>
+                        <size key="maxSize" width="67" height="28"/>
+                        <segmentedControl key="view" verticalHuggingPriority="750" id="Lgp-bw-POp">
+                            <rect key="frame" x="0.0" y="14" width="67" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="momentary" id="WmP-gk-zlU">
+                                <font key="font" metaFont="system"/>
+                                <segments>
+                                    <segment image="indentDecreaseTemplate" width="32">
+                                        <nil key="label"/>
+                                    </segment>
+                                    <segment image="indentIncreaseTemplate" width="32" tag="1">
+                                        <nil key="label"/>
+                                    </segment>
+                                </segments>
+                            </segmentedCell>
+                            <connections>
+                                <action selector="changeIndentationWithSegmentedControl:" target="-2" id="h4O-Ld-uZw"/>
+                            </connections>
+                        </segmentedControl>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="42a-LL-ZaC"/>
+                    <toolbarItem reference="l1h-S7-eid"/>
+                    <toolbarItem reference="Fjt-53-Qx5"/>
+                    <toolbarItem reference="Gfm-Dd-VNZ"/>
+                    <toolbarItem reference="mAk-lH-1P0"/>
+                    <toolbarItem reference="WJe-Rx-Doy"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="hW4-81-y5o"/>
+                <outlet property="textEditorBottomConstraint" destination="o5x-93-YKX" id="Q8N-Ke-9a5"/>
+                <outlet property="textEditorTopConstraint" destination="ngv-du-sXU" id="tV3-sZ-ian"/>
+                <outlet property="textView" destination="3kl-bg-vXa" id="X7k-y4-PLU"/>
+                <outlet property="titleBarSeparatorView" destination="HKp-0Q-T0H" id="abC-cl-YoY"/>
+            </connections>
+            <point key="canvasLocation" x="138.5" y="161.5"/>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="9JT-h4-3i6"/>
+    </objects>
+    <resources>
+        <image name="eyeTemplate" width="16" height="16"/>
+        <image name="indentDecreaseTemplate" width="16" height="16"/>
+        <image name="indentIncreaseTemplate" width="16" height="16"/>
+        <image name="jumpToLineTemplate" width="16" height="16"/>
+        <image name="printTemplate" width="16" height="16"/>
+    </resources>
+</document>
